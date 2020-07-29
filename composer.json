@@ -1,0 +1,13 @@
+{
+  "name": "fenicioapp/promos",
+  "description": "Motor de promociones encargado de calcular las líneas de descuento correspondientes.",
+  "require": {
+    "slim/slim": "4.*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fenicio\\": "src/"
+    }
+  }
+}
