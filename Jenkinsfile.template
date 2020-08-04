@@ -6,6 +6,6 @@ library identifier: 'shared-library@master', retriever: modernSCM(
 phppipeline {
         projectName = ""
         jenkinsJNLPAgentImage = "javierjafio/jnpl-slave-docker:1.0"
-        registryURL = ""
+        registryURL = "tallerfenicio.azurecr.io"
         gitOpsRepo = ""
 }
